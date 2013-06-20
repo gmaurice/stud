@@ -124,6 +124,8 @@ Detail about the entire set of options can be found by invoking `stud -h`:
                                  the backend if one of --write-ip or --write-proxy
                                  is specified.
                                  (Default: off)
+          --write-xff            Write X-Forwarded-For header before actual data
+                                 (Default: off)
           --proxy-proxy          Proxy HaProxy's PROXY (IPv4 or IPv6) protocol line
                                  before actual data
                                  (Default: off)
